@@ -24,6 +24,8 @@ namespace Try4
         }
             private void btnSave_Click(object sender, EventArgs e)
         {
+            Form4 f = new Form4();
+            f.ShowDialog();
             string firstName = txtFirstName.Text;
             string lastName = txtLastName.Text;
             string phoneNumber = txtPhoneNumber.Text;
